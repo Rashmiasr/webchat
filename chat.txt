@@ -1,5 +1,0 @@
- 
-sam       | hello
-sam       | hw ru
-sam       | am fine thank u
-ram       | hello am fine
