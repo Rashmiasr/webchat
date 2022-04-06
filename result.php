@@ -28,7 +28,7 @@ input, textarea  { font-family: calibri; font-size: 14px; }
 
         </div>
         <div id="content">
-            <textarea id="chatwindow" style="width: 99.88%;height:300px;border-radius: 3px;" readonly></textarea><br>
+            <textarea id="chatwindow" style="width: 99.88%;height:70vh;border-radius: 3px;" readonly></textarea><br>
 
             <input id="chatnick" type="text" style="display: none;" size="9" maxlength="10" placeholder="username">
             <div style="text-align: center;">
