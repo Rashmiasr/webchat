@@ -2,13 +2,13 @@
     <head>
     <title>ajax chat (room 1)</title>
     <style type="text/css">
-body             { padding-left:40px; background:white; font-family:calibri;}
+body             { padding-left:0; background:white; font-family:calibri;}
 input, textarea  { font-family: calibri; font-size: 14px; }
-#content         { width:800px; text-align:left; margin-left:60px; }
+/* #content         { } */
 
-#chatwindow      { border:7px solid red; padding:4px; background:#FFF; color:black;}
+#chatwindow      {  background:#FFF; color:black;}
 #chatnick        { border: none; border-bottom:1px solid #aaaaaa; padding:4px; background:#57767F;}
-#chatmsg         { border: none; border-bottom:1px solid #aaaaaa; padding:4px; background:#57767F; }
+#chatmsg         { border: none; border-bottom:1px solid #aaaaaa ;outline: none ; width: 96.88%;;padding:4px; border-radius: 4px; }
 
 #info            { text-align:left; padding-left:0px; font-family:calibri; }
 #info td         { font-size:12px; padding-right:10px; color:#DFDFDF;  }
@@ -20,20 +20,21 @@ input, textarea  { font-family: calibri; font-size: 14px; }
     </head>
     <body>
         <div id="info">
-        <br>
+      
             <table border="0">
                 <tr><td>&nbsp;</td></tr>
                  
             </table>
 
         </div>
-        <br>
         <div id="content">
-            <textarea id="chatwindow" rows="19" cols="95" readonly></textarea><br>
+            <textarea id="chatwindow" style="width: 99.88%;height:65vh;border-radius: 3px;" readonly></textarea><br>
 
-            <input id="chatnick" type="text" size="9" maxlength="10" placeholder="username">&nbsp;
-            <input id="chatmsg" type="text" size="80" maxlength="80"  onkeyup="keyup(event.keyCode);" placeholder="message">
-            <input type="button" value="add" onclick="submit_msg();" style="cursor:pointer;border:1px solid gray;"><br><br>
+            <input id="chatnick" type="text" style="display: none;" size="9" maxlength="10" placeholder="username">
+            <div style="text-align: center;">
+            <input id="chatmsg" type="text" size="80" maxlength="80" onkeyup="keyup(event.keyCode);" placeholder="message">
+            </div>
+            <input type="button" value="Add" onclick="submit_msg();"  style="cursor:pointer;border:1px solid gray; float: right; margin-right:3px; margin-top:3px;background:orange;padding:4px 24px;border-radius: 2px; font-weight: bold;"><br><br>
         </div>
 
     </body>
