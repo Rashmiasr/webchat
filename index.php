@@ -26,7 +26,7 @@ function loginForm(){
     '<div id="loginform">
     <p>Please enter your name to continue!</p>
     <form action="index.php" method="post">
-      <label for="name">Name &mdash;</label>
+      <label for="name"></label>
       <input type="text" name="name" id="name" />
       <input type="submit" name="enter" id="enter" value="Enter" />
     </form>
@@ -54,7 +54,7 @@ function loginForm(){
    
         <div id="wrapper">
             <div id="menu">
-                <p class="welcome">Welcome, <b><input type='text' id='username' value='<?php echo $_SESSION['name']; ?>'></b></p>
+                <p class="welcome">Welcome, <b><input type='text' id='username' readonly style="background-color: transparent ; border:none;outline:none" value='<?php echo $_SESSION['name']; ?>'></b></p>
                 <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
             </div>
  
