@@ -3,7 +3,7 @@
      * Author: chris at linuxuser.at
      * Licence: MIT
      */
-
+ 
     $fn = "chat.txt";
     $maxlines = 20;
 
