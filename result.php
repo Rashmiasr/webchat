@@ -34,7 +34,7 @@ input, textarea  { font-family: calibri; font-size: 14px; }
             <div style="text-align: center;">
             <input id="chatmsg" type="text" size="80" maxlength="80" onkeyup="keyup(event.keyCode);" placeholder="message">
             </div>
-            <input type="button" value="Enter" onclick="submit_msg();"  style="cursor:pointer;border:1px solid gray; float: right; margin-right:3px; margin-top:3px;background:orange;padding:4px 24px;border-radius: 2px; font-weight: bold;"><br><br>
+            <input type="button" value="Enter" onclick="submit_msg();"  style="cursor:pointer;border:1px solid gray;  display:block;margin-right:auto;margin-left:auto; margin-top:3px;background:orange;padding:4px 24px;border-radius: 2px; font-weight: bold;"><br><br>
         </div>
 
     </body>
