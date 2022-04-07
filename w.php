@@ -13,9 +13,9 @@
     $waittime_sec = 0;
 
     /* spam keywords */
-    $spam[] = "cum";
-    $spam[] = "dick";
-    $spam[] = "EAT coon";
+    $spam[] = "dirty";
+    $spam[] = "xxx";
+    $spam[] = "***";
 
     /* IP's to block */
     $blockip[] = "72.60.167.89";
